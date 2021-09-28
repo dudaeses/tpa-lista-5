@@ -13,7 +13,7 @@ nota = (nota1+nota2+nota3)/3
 if nota > 7:
     print ("Parabéns", nome,"! Você foi aprovado.")
 else:
-    if nota < 7 and nota > 5:
+    if nota <= 7 and nota >= 5:
             print ("Você ficou com média", nota, "e está de recuperação.")
     else:
         if nota < 5:
